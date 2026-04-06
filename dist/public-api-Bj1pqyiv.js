@@ -2,24 +2,24 @@ import { structuralStyles as M } from "@a2ui/web_core/styles/index";
 import { reactive as B, inject as v, ref as R, defineComponent as x, computed as g, openBlock as y, createBlock as C, resolveDynamicComponent as F, mergeProps as E, createCommentVNode as S, defineAsyncComponent as j, createElementBlock as L } from "vue";
 import * as O from "@a2ui/web_core/v0_8";
 const A = {
-  AudioPlayer: () => import("./A2UIAudio-ClrgMz7l.js"),
-  Button: () => import("./A2UIButton-BYnGQRyJ.js"),
-  Card: () => import("./A2UICard-BsvT-zKw.js"),
-  CheckBox: () => import("./A2UICheckBox-CgIw_fyv.js"),
-  Column: () => import("./A2UIColumn-6v7kCXqa.js"),
-  DateTimeInput: () => import("./A2UIDateTimeInput-Bjz6z6NA.js"),
-  Divider: () => import("./A2UIDivider-Cqm0EMkJ.js"),
-  Icon: () => import("./A2UIIcon-DdxoWBVi.js"),
-  Image: () => import("./A2UIImage-BF6qsoSX.js"),
-  List: () => import("./A2UIList-CLpY98n5.js"),
-  Modal: () => import("./A2UIModal-3JNRElvh.js"),
-  MultipleChoice: () => import("./A2UIMultipleChoice-C7VGIMqW.js"),
-  Row: () => import("./A2UIRow-YUHxJsy6.js"),
-  Slider: () => import("./A2UISlider-DYzU_0fa.js"),
-  Tabs: () => import("./A2UITabs-rg8GzrWp.js"),
-  Text: () => import("./A2UIText-DaTL6B3r.js"),
-  TextField: () => import("./A2UITextField-CDu7k5uD.js"),
-  Video: () => import("./A2UIVideo-r6xReOK1.js")
+  AudioPlayer: () => import("./A2UIAudio-C8QvIQiL.js"),
+  Button: () => import("./A2UIButton-BLQU3Zth.js"),
+  Card: () => import("./A2UICard-DT0RSt4l.js"),
+  CheckBox: () => import("./A2UICheckBox-BrNm4JEe.js"),
+  Column: () => import("./A2UIColumn-5mjKNb6L.js"),
+  DateTimeInput: () => import("./A2UIDateTimeInput-HymcG36e.js"),
+  Divider: () => import("./A2UIDivider-CYXqBNUS.js"),
+  Icon: () => import("./A2UIIcon-Vdn7SFQY.js"),
+  Image: () => import("./A2UIImage-yTFYH6NG.js"),
+  List: () => import("./A2UIList-ZQRYMzCK.js"),
+  Modal: () => import("./A2UIModal-gL4S4B73.js"),
+  MultipleChoice: () => import("./A2UIMultipleChoice-Cn9zhmtA.js"),
+  Row: () => import("./A2UIRow-9pfSKqH9.js"),
+  Slider: () => import("./A2UISlider-BGAxVdeg.js"),
+  Tabs: () => import("./A2UITabs-Cd_KkykY.js"),
+  Text: () => import("./A2UIText-B4nh5Dkw.js"),
+  TextField: () => import("./A2UITextField-xhhg7N7j.js"),
+  Video: () => import("./A2UIVideo-YNZNLXGF.js")
 };
 function Q(e) {
   for (const [r, u] of Object.entries(A))

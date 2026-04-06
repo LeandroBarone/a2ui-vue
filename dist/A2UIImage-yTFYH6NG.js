@@ -1,6 +1,6 @@
 import { defineComponent as p, computed as o, openBlock as d, createElementBlock as g, createElementVNode as i, normalizeStyle as f, unref as v, normalizeClass as h, createCommentVNode as _ } from "vue";
 import * as y from "@a2ui/web_core/styles/index";
-import { u as x } from "./public-api-BNRYkT80.js";
+import { u as x } from "./public-api-Bj1pqyiv.js";
 const I = {
   key: 0,
   style: { display: "block", flex: "var(--weight)", minHeight: 0, overflow: "auto" }

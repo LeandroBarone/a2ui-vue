@@ -1,5 +1,5 @@
 import { defineComponent as A, computed as r, openBlock as i, createElementBlock as u, createElementVNode as p, normalizeStyle as x, unref as l, normalizeClass as d, toDisplayString as _, Fragment as N, renderList as P } from "vue";
-import { u as U } from "./public-api-BNRYkT80.js";
+import { u as U } from "./public-api-Bj1pqyiv.js";
 const j = { style: { display: "block" } }, z = ["for"], B = ["id", "value"], E = ["value"], q = /* @__PURE__ */ A({
   __name: "A2UIMultipleChoice",
   props: {

@@ -384,6 +384,48 @@ describe('A2UIButton', () => {
     await nextTick();
     expect(dispatched).toBe(true);
   });
+
+  it('should set data-primary when primary is true', async () => {
+    const child = { id: 'btn-text3', type: 'Text', properties: { text: { literalString: 'Primary' } }, dataContextPath: '/' };
+    const { wrapper } = mountWithA2UI(A2UIButton, {
+      props: {
+        surfaceId: 'test',
+        component: baseComponent('btn3', 'Button'),
+        action: { name: 'x', context: [] },
+        child,
+        primary: true,
+      },
+    });
+    await nextTick();
+    const button = wrapper.find('button');
+    expect(button.attributes('data-primary')).toBeDefined();
+  });
+
+  it('should omit data-primary when primary is false or omitted', async () => {
+    const child = { id: 'btn-text4', type: 'Text', properties: { text: { literalString: 'Secondary' } }, dataContextPath: '/' };
+    const { wrapper: w1 } = mountWithA2UI(A2UIButton, {
+      props: {
+        surfaceId: 'test',
+        component: baseComponent('btn4', 'Button'),
+        action: { name: 'x', context: [] },
+        child,
+        primary: false,
+      },
+    });
+    await nextTick();
+    expect(w1.find('button').attributes('data-primary')).toBeUndefined();
+
+    const { wrapper: w2 } = mountWithA2UI(A2UIButton, {
+      props: {
+        surfaceId: 'test',
+        component: baseComponent('btn5', 'Button'),
+        action: { name: 'x', context: [] },
+        child,
+      },
+    });
+    await nextTick();
+    expect(w2.find('button').attributes('data-primary')).toBeUndefined();
+  });
 });
 
 describe('A2UICheckBox', () => {
@@ -398,8 +440,13 @@ describe('A2UICheckBox', () => {
     });
     await nextTick();
     expect(wrapper.text()).toContain('Accept Terms');
+    const root = wrapper.find('.a2ui-checkbox-root');
+    expect(root.classes()).toContain('a2ui-checkbox');
+    const label = wrapper.find('label');
+    expect(label.classes()).toContain('a2ui-checkbox-label');
     const input = wrapper.find('input[type="checkbox"]');
     expect(input.exists()).toBe(true);
+    expect(input.classes()).toContain('a2ui-checkbox-element');
     expect((input.element as HTMLInputElement).checked).toBe(true);
   });
 

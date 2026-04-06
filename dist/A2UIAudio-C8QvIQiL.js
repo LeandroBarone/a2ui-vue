@@ -1,5 +1,5 @@
 import { defineComponent as c, computed as i, openBlock as u, createElementBlock as a, createElementVNode as d, normalizeStyle as m, unref as p } from "vue";
-import { u as _ } from "./public-api-BNRYkT80.js";
+import { u as _ } from "./public-api-Bj1pqyiv.js";
 const f = { style: { display: "flex" } }, v = ["src"], I = /* @__PURE__ */ c({
   __name: "A2UIAudio",
   props: {

@@ -1,5 +1,5 @@
 import { defineComponent as k, ref as p, openBlock as o, createElementBlock as c, createElementVNode as l, normalizeStyle as C, unref as t, normalizeClass as i, Fragment as T, renderList as _, toDisplayString as g, createBlock as x, createCommentVNode as B } from "vue";
-import { u as S, _ as z } from "./public-api-BNRYkT80.js";
+import { u as S, _ as z } from "./public-api-Bj1pqyiv.js";
 const E = { style: { display: "block" } }, N = ["onClick"], V = {
   class: "a2ui-tabs-content",
   style: { flex: "1", "min-height": "0" }

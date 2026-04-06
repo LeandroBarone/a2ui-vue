@@ -51,6 +51,7 @@ const classes = computed(() => ({
 .a2ui-row-section {
   display: flex;
   flex-direction: row;
+  gap: 0.5rem;
   width: 100%;
   min-height: 100%;
   box-sizing: border-box;

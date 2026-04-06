@@ -1,5 +1,5 @@
 import { defineComponent as k, ref as y, openBlock as n, createElementBlock as s, createElementVNode as r, createBlock as d, createCommentVNode as t, normalizeClass as u, unref as m, withModifiers as h } from "vue";
-import { u as v, _ as f } from "./public-api-BNRYkT80.js";
+import { u as v, _ as f } from "./public-api-Bj1pqyiv.js";
 const M = { style: { display: "inline-block" } }, b = /* @__PURE__ */ k({
   __name: "A2UIModal",
   props: {

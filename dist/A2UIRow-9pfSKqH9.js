@@ -1,5 +1,5 @@
 import { defineComponent as p, computed as n, openBlock as o, createElementBlock as r, createElementVNode as f, normalizeStyle as _, unref as g, normalizeClass as v, Fragment as l, renderList as w, createBlock as y, createCommentVNode as b } from "vue";
-import { u as k, _ as x, a as C } from "./public-api-BNRYkT80.js";
+import { u as k, _ as x, a as C } from "./public-api-Bj1pqyiv.js";
 const I = ["alignment", "distribution"], R = /* @__PURE__ */ p({
   __name: "A2UIRow",
   props: {
@@ -40,7 +40,7 @@ const I = ["alignment", "distribution"], R = /* @__PURE__ */ p({
       ], 8, I);
     };
   }
-}), A = /* @__PURE__ */ C(R, [["__scopeId", "data-v-48655533"]]);
+}), A = /* @__PURE__ */ C(R, [["__scopeId", "data-v-5af613d9"]]);
 export {
   A as default
 };

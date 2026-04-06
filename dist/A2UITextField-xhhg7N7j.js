@@ -1,5 +1,5 @@
 import { defineComponent as T, computed as l, openBlock as g, createElementBlock as F, createElementVNode as r, normalizeStyle as k, unref as n, normalizeClass as c, toDisplayString as S } from "vue";
-import { u as C } from "./public-api-BNRYkT80.js";
+import { u as C } from "./public-api-Bj1pqyiv.js";
 const P = { style: { display: "block" } }, U = ["for"], w = ["type", "id", "value"], B = /* @__PURE__ */ T({
   __name: "A2UITextField",
   props: {

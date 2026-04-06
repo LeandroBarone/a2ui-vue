@@ -1,5 +1,5 @@
-import { defineComponent as p, computed as n, openBlock as o, createElementBlock as s, createElementVNode as f, normalizeStyle as _, unref as b, normalizeClass as g, Fragment as c, renderList as v, createBlock as C, createCommentVNode as y } from "vue";
-import { u as k, _ as x, a as I } from "./public-api-BNRYkT80.js";
+import { defineComponent as p, computed as n, openBlock as o, createElementBlock as s, createElementVNode as f, normalizeStyle as _, unref as g, normalizeClass as v, Fragment as c, renderList as C, createBlock as b, createCommentVNode as y } from "vue";
+import { u as k, _ as x, a as I } from "./public-api-Bj1pqyiv.js";
 const h = ["alignment", "distribution"], B = /* @__PURE__ */ p({
   __name: "A2UIColumn",
   props: {
@@ -24,13 +24,13 @@ const h = ["alignment", "distribution"], B = /* @__PURE__ */ p({
         style: { display: "flex", flex: "var(--weight)" }
       }, [
         f("section", {
-          class: g([d.value, "a2ui-column-section"]),
-          style: _((l = b(a).additionalStyles) == null ? void 0 : l.Column)
+          class: v([d.value, "a2ui-column-section"]),
+          style: _((l = g(a).additionalStyles) == null ? void 0 : l.Column)
         }, [
-          (o(!0), s(c, null, v(m.value, (e) => (o(), s(c, {
+          (o(!0), s(c, null, C(m.value, (e) => (o(), s(c, {
             key: (e == null ? void 0 : e.id) ?? e
           }, [
-            e ? (o(), C(x, {
+            e ? (o(), b(x, {
               key: 0,
               "surface-id": r.surfaceId,
               component: e
@@ -40,7 +40,7 @@ const h = ["alignment", "distribution"], B = /* @__PURE__ */ p({
       ], 8, h);
     };
   }
-}), E = /* @__PURE__ */ I(B, [["__scopeId", "data-v-bb6c80b1"]]);
+}), E = /* @__PURE__ */ I(B, [["__scopeId", "data-v-0eebbfc7"]]);
 export {
   E as default
 };

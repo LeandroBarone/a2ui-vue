@@ -1,5 +1,5 @@
 import { defineComponent as n, openBlock as r, createElementBlock as i, createElementVNode as s, normalizeStyle as c, unref as t, normalizeClass as a } from "vue";
-import { u as l } from "./public-api-BNRYkT80.js";
+import { u as l } from "./public-api-Bj1pqyiv.js";
 const m = { style: { display: "block", minHeight: 0, overflow: "auto" } }, h = /* @__PURE__ */ n({
   __name: "A2UIDivider",
   props: {

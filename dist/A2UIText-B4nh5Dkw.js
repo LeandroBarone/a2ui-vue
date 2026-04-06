@@ -1,6 +1,6 @@
 import { defineComponent as f, ref as h, watchEffect as y, toRaw as k, computed as s, openBlock as v, createElementBlock as b, normalizeStyle as x, createElementVNode as g, normalizeClass as w } from "vue";
 import * as o from "@a2ui/web_core/styles/index";
-import { u as H, b as _ } from "./public-api-BNRYkT80.js";
+import { u as H, b as _ } from "./public-api-Bj1pqyiv.js";
 const S = ["innerHTML"], A = /* @__PURE__ */ f({
   __name: "A2UIText",
   props: {

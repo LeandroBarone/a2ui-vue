@@ -1,5 +1,5 @@
 import { defineComponent as V, computed as f, openBlock as h, createElementBlock as y, createElementVNode as I, normalizeStyle as k, unref as t, normalizeClass as r, toDisplayString as N, createCommentVNode as C } from "vue";
-import { u as P } from "./public-api-BNRYkT80.js";
+import { u as P } from "./public-api-Bj1pqyiv.js";
 const U = { style: { display: "block" } }, z = ["id"], A = ["id", "aria-labelledby", "min", "max", "value"], M = /* @__PURE__ */ V({
   __name: "A2UISlider",
   props: {

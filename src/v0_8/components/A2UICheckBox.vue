@@ -11,7 +11,7 @@ const props = defineProps<{
   checked: Types.BooleanValue | null;
 }>();
 
-const { processor, resolvePrimitive, sendAction, getUniqueId } = useComponent();
+const { processor, theme, resolvePrimitive, sendAction, getUniqueId } = useComponent();
 
 const inputId = getUniqueId('a2ui-checkbox');
 
@@ -47,15 +47,29 @@ function onToggle(event: Event) {
 </script>
 
 <template>
-  <a2ui-checkbox :style="{ display: 'flex', alignItems: 'center', gap: '0.5rem' }">
-    <label>
-      <input
-        type="checkbox"
-        :id="inputId"
-        :checked="inputChecked"
-        @change="onToggle"
-      />
-      {{ resolvedLabel }}
-    </label>
+  <a2ui-checkbox :style="{ display: 'block' }">
+    <div
+      :class="[(theme.components as any).CheckBox?.container, 'a2ui-checkbox-root']"
+      :style="(theme.additionalStyles as any)?.CheckBox"
+    >
+      <label :class="(theme.components as any).CheckBox?.label" :for="inputId">
+        <input
+          type="checkbox"
+          :class="(theme.components as any).CheckBox?.element"
+          :id="inputId"
+          :checked="inputChecked"
+          @change="onToggle"
+        />
+        {{ resolvedLabel }}
+      </label>
+    </div>
   </a2ui-checkbox>
 </template>
+
+<style scoped>
+.a2ui-checkbox-root {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+</style>

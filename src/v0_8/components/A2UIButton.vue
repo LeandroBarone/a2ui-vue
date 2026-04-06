@@ -26,6 +26,7 @@ function handleClick() {
     <button
       :class="(theme.components as any).Button"
       :style="(theme.additionalStyles as any)?.Button"
+      :data-primary="primary ? '' : undefined"
       @click="handleClick"
     >
       <A2UIRenderer

@@ -1,5 +1,5 @@
 import { defineComponent as s, openBlock as n, createElementBlock as a, createElementVNode as m, normalizeStyle as u, unref as o, normalizeClass as f, createBlock as d, createCommentVNode as l, Fragment as h, renderList as y } from "vue";
-import { u as k, _ as i } from "./public-api-BNRYkT80.js";
+import { u as k, _ as i } from "./public-api-Bj1pqyiv.js";
 const C = { style: { display: "block" } }, x = /* @__PURE__ */ s({
   __name: "A2UICard",
   props: {
